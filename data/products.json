@@ -1,0 +1,358 @@
+[
+    {
+        "id": 41,
+        "title": "Futuristic Chic High-Heel Boots",
+        "slug": "futuristic-chic-high-heel-boots",
+        "price": 36,
+        "description": "Elevate your style with our cutting-edge high-heel boots that blend bold design with avant-garde aesthetics. These boots feature a unique color-block heel, a sleek silhouette, and a versatile light grey finish that pairs easily with any cutting-edge outfit. Crafted for the fashion-forward individual, these boots are sure to make a statement.",
+        "category": {
+            "id": 4,
+            "name": "Shoes ",
+            "slug": "shoes",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6ns2it1GR8XbMwrxhNvakcJlv2RvmmAlJCQ&s",
+            "creationAt": "2025-05-01T05:54:29.000Z",
+            "updatedAt": "2025-05-01T08:46:34.000Z"
+        },
+        "images": [
+            "https://i.imgur.com/HqYqLnW.jpeg",
+            "https://i.imgur.com/RlDGnZw.jpeg",
+            "https://i.imgur.com/qa0O6fg.jpeg"
+        ],
+        "creationAt": "2025-05-01T05:54:29.000Z",
+        "updatedAt": "2025-05-01T05:54:29.000Z"
+    },
+    {
+        "id": 43,
+        "title": "Elegant Purple Leather Loafers",
+        "slug": "elegant-purple-leather-loafers",
+        "price": 17,
+        "description": "Step into sophistication with our Elegant Purple Leather Loafers, perfect for making a bold statement. Crafted from high-quality leather with a vibrant purple finish, these shoes feature a classic loafer silhouette that's been updated with a contemporary twist. The comfortable slip-on design and durable soles ensure both style and functionality for the modern man.",
+        "category": {
+            "id": 4,
+            "name": "Shoes ",
+            "slug": "shoes",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6ns2it1GR8XbMwrxhNvakcJlv2RvmmAlJCQ&s",
+            "creationAt": "2025-05-01T05:54:29.000Z",
+            "updatedAt": "2025-05-01T08:46:34.000Z"
+        },
+        "images": [
+            "https://i.imgur.com/Au8J9sX.jpeg",
+            "https://i.imgur.com/gdr8BW2.jpeg",
+            "https://i.imgur.com/KDCZxnJ.jpeg"
+        ],
+        "creationAt": "2025-05-01T05:54:29.000Z",
+        "updatedAt": "2025-05-01T05:54:29.000Z"
+    },
+    {
+        "id": 44,
+        "title": "Classic Blue Suede Casual Shoes",
+        "slug": "classic-blue-suede-casual-shoes",
+        "price": 39,
+        "description": "Step into comfort with our Classic Blue Suede Casual Shoes, perfect for everyday wear. These shoes feature a stylish blue suede upper, durable rubber soles for superior traction, and classic lace-up fronts for a snug fit. The sleek design pairs well with both jeans and chinos, making them a versatile addition to any wardrobe.",
+        "category": {
+            "id": 4,
+            "name": "Shoes ",
+            "slug": "shoes",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6ns2it1GR8XbMwrxhNvakcJlv2RvmmAlJCQ&s",
+            "creationAt": "2025-05-01T05:54:29.000Z",
+            "updatedAt": "2025-05-01T08:46:34.000Z"
+        },
+        "images": [
+            "https://i.imgur.com/sC0ztOB.jpeg",
+            "https://i.imgur.com/Jf9DL9R.jpeg",
+            "https://i.imgur.com/R1IN95T.jpeg"
+        ],
+        "creationAt": "2025-05-01T05:54:29.000Z",
+        "updatedAt": "2025-05-01T05:54:29.000Z"
+    },
+    {
+        "id": 45,
+        "title": "Sleek Futuristic Electric Bicycle",
+        "slug": "sleek-futuristic-electric-bicycle",
+        "price": 22,
+        "description": "This modern electric bicycle combines style and efficiency with its unique design and top-notch performance features. Equipped with a durable frame, enhanced battery life, and integrated tech capabilities, it's perfect for the eco-conscious commuter looking to navigate the city with ease.",
+        "category": {
+            "id": 5,
+            "name": "Others ",
+            "slug": "others",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpGybNvK2WoZax0xgrfAdkncVkpjI3kjhE3a0AAim6GH61HSy7eVvk2Qo&s=10",
+            "creationAt": "2025-05-01T05:54:29.000Z",
+            "updatedAt": "2025-05-01T08:48:53.000Z"
+        },
+        "images": [
+            "https://i.imgur.com/BG8J0Fj.jpg",
+            "https://i.imgur.com/ujHBpCX.jpg",
+            "https://i.imgur.com/WHeVL9H.jpg"
+        ],
+        "creationAt": "2025-05-01T05:54:29.000Z",
+        "updatedAt": "2025-05-01T05:54:29.000Z"
+    },
+    {
+        "id": 46,
+        "title": "Sleek All-Terrain Go-Kart",
+        "slug": "sleek-all-terrain-go-kart",
+        "price": 37,
+        "description": "Experience the thrill of outdoor adventures with our Sleek All-Terrain Go-Kart, featuring a durable frame, comfortable racing seat, and robust, large-tread tires perfect for handling a variety of terrains. Designed for fun-seekers of all ages, this go-kart is an ideal choice for backyard racing or exploring local trails.",
+        "category": {
+            "id": 5,
+            "name": "Others ",
+            "slug": "others",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpGybNvK2WoZax0xgrfAdkncVkpjI3kjhE3a0AAim6GH61HSy7eVvk2Qo&s=10",
+            "creationAt": "2025-05-01T05:54:29.000Z",
+            "updatedAt": "2025-05-01T08:48:53.000Z"
+        },
+        "images": [
+            "https://i.imgur.com/Ex5x3IU.jpg",
+            "https://i.imgur.com/z7wAQwe.jpg",
+            "https://i.imgur.com/kc0Dj9S.jpg"
+        ],
+        "creationAt": "2025-05-01T05:54:29.000Z",
+        "updatedAt": "2025-05-01T05:54:29.000Z"
+    },
+    {
+        "id": 47,
+        "title": "Radiant Citrus Eau de Parfum",
+        "slug": "radiant-citrus-eau-de-parfum",
+        "price": 73,
+        "description": "Indulge in the essence of summer with this vibrant citrus-scented Eau de Parfum. Encased in a sleek glass bottle with a bold orange cap, this fragrance embodies freshness and elegance. Perfect for daily wear, it's an olfactory delight that leaves a lasting, zesty impression.",
+        "category": {
+            "id": 5,
+            "name": "Others ",
+            "slug": "others",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpGybNvK2WoZax0xgrfAdkncVkpjI3kjhE3a0AAim6GH61HSy7eVvk2Qo&s=10",
+            "creationAt": "2025-05-01T05:54:29.000Z",
+            "updatedAt": "2025-05-01T08:48:53.000Z"
+        },
+        "images": [
+            "https://i.imgur.com/xPDwUb3.jpg",
+            "https://i.imgur.com/3rfp691.jpg",
+            "https://i.imgur.com/kG05a29.jpg"
+        ],
+        "creationAt": "2025-05-01T05:54:29.000Z",
+        "updatedAt": "2025-05-01T05:54:29.000Z"
+    },
+    {
+        "id": 50,
+        "title": "Trendy Pink-Tinted Sunglasses",
+        "slug": "trendy-pink-tinted-sunglasses",
+        "price": 38,
+        "description": "Step up your style game with these fashionable black-framed, pink-tinted sunglasses. Perfect for making a statement while protecting your eyes from the glare. Their bold color and contemporary design make these shades a must-have accessory for any trendsetter looking to add a pop of color to their ensemble.",
+        "category": {
+            "id": 5,
+            "name": "Others ",
+            "slug": "others",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpGybNvK2WoZax0xgrfAdkncVkpjI3kjhE3a0AAim6GH61HSy7eVvk2Qo&s=10",
+            "creationAt": "2025-05-01T05:54:29.000Z",
+            "updatedAt": "2025-05-01T08:48:53.000Z"
+        },
+        "images": [
+            "https://i.imgur.com/0qQBkxX.jpg",
+            "https://i.imgur.com/I5g1DoE.jpg",
+            "https://i.imgur.com/myfFQBW.jpg"
+        ],
+        "creationAt": "2025-05-01T05:54:29.000Z",
+        "updatedAt": "2025-05-01T05:54:29.000Z"
+    },
+    {
+        "id": 51,
+        "title": "Elegant Glass Tumbler Set",
+        "slug": "elegant-glass-tumbler-set",
+        "price": 50,
+        "description": "Enhance your drinkware collection with our sophisticated set of glass tumblers, perfect for serving your favorite beverages. This versatile set includes both clear and subtly tinted glasses, lending a modern touch to any table setting. Crafted with quality materials, these durable tumblers are designed to withstand daily use while maintaining their elegant appeal.",
+        "category": {
+            "id": 5,
+            "name": "Others ",
+            "slug": "others",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpGybNvK2WoZax0xgrfAdkncVkpjI3kjhE3a0AAim6GH61HSy7eVvk2Qo&s=10",
+            "creationAt": "2025-05-01T05:54:29.000Z",
+            "updatedAt": "2025-05-01T08:48:53.000Z"
+        },
+        "images": [
+            "https://i.imgur.com/TF0pXdL.jpg",
+            "https://i.imgur.com/BLDByXP.jpg",
+            "https://i.imgur.com/b7trwCv.jpg"
+        ],
+        "creationAt": "2025-05-01T05:54:29.000Z",
+        "updatedAt": "2025-05-01T05:54:29.000Z"
+    },
+    {
+        "id": 66,
+        "title": "Mobile Phones",
+        "slug": "mobile-phones",
+        "price": 10,
+        "description": "A description",
+        "category": {
+            "id": 1,
+            "name": "Clothess",
+            "slug": "clothess",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUqXD-SRcdd86DyDzg7mUZh1y9YuxkyJ9tCA&s",
+            "creationAt": "2025-05-01T05:54:29.000Z",
+            "updatedAt": "2025-05-01T12:34:52.000Z"
+        },
+        "images": [
+            "https://placeimg.com/640/480/any"
+        ],
+        "creationAt": "2025-05-01T11:04:39.000Z",
+        "updatedAt": "2025-05-01T11:04:39.000Z"
+    },
+    {
+        "id": 67,
+        "title": "new product",
+        "slug": "new-product",
+        "price": 12,
+        "description": "A product",
+        "category": {
+            "id": 1,
+            "name": "Clothess",
+            "slug": "clothess",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUqXD-SRcdd86DyDzg7mUZh1y9YuxkyJ9tCA&s",
+            "creationAt": "2025-05-01T05:54:29.000Z",
+            "updatedAt": "2025-05-01T12:34:52.000Z"
+        },
+        "images": [
+            "https://placehold.co/600x400"
+        ],
+        "creationAt": "2025-05-01T11:51:54.000Z",
+        "updatedAt": "2025-05-01T11:51:54.000Z"
+    },
+    {
+        "id": 68,
+        "title": "Product Free 1",
+        "slug": "product-free-1",
+        "price": 100,
+        "description": "This is Product Free 1",
+        "category": {
+            "id": 2,
+            "name": "Electronics",
+            "slug": "electronics",
+            "image": "https://i.imgur.com/ZANVnHE.jpeg",
+            "creationAt": "2025-05-01T05:54:29.000Z",
+            "updatedAt": "2025-05-01T05:54:29.000Z"
+        },
+        "images": [
+            "https://placehold.co/600x400"
+        ],
+        "creationAt": "2025-05-01T15:09:26.000Z",
+        "updatedAt": "2025-05-01T15:09:26.000Z"
+    },
+    {
+        "id": 70,
+        "title": "Product Free 11",
+        "slug": "product-free-11",
+        "price": 100,
+        "description": "This is Product Free 11",
+        "category": {
+            "id": 2,
+            "name": "Electronics",
+            "slug": "electronics",
+            "image": "https://i.imgur.com/ZANVnHE.jpeg",
+            "creationAt": "2025-05-01T05:54:29.000Z",
+            "updatedAt": "2025-05-01T05:54:29.000Z"
+        },
+        "images": [
+            "https://placehold.co/600x400"
+        ],
+        "creationAt": "2025-05-01T15:10:49.000Z",
+        "updatedAt": "2025-05-01T15:10:49.000Z"
+    },
+    {
+        "id": 71,
+        "title": "Product Free 12",
+        "slug": "product-free-12",
+        "price": 100,
+        "description": "This is Product Free 11",
+        "category": {
+            "id": 2,
+            "name": "Electronics",
+            "slug": "electronics",
+            "image": "https://i.imgur.com/ZANVnHE.jpeg",
+            "creationAt": "2025-05-01T05:54:29.000Z",
+            "updatedAt": "2025-05-01T05:54:29.000Z"
+        },
+        "images": [
+            "https://placehold.co/600x400"
+        ],
+        "creationAt": "2025-05-01T15:12:48.000Z",
+        "updatedAt": "2025-05-01T15:12:48.000Z"
+    },
+    {
+        "id": 72,
+        "title": "Product Free 15",
+        "slug": "product-free-15",
+        "price": 100,
+        "description": "This is Product Free 15",
+        "category": {
+            "id": 2,
+            "name": "Electronics",
+            "slug": "electronics",
+            "image": "https://i.imgur.com/ZANVnHE.jpeg",
+            "creationAt": "2025-05-01T05:54:29.000Z",
+            "updatedAt": "2025-05-01T05:54:29.000Z"
+        },
+        "images": [
+            "https://placehold.co/600x400"
+        ],
+        "creationAt": "2025-05-01T15:13:45.000Z",
+        "updatedAt": "2025-05-01T15:13:45.000Z"
+    },
+    {
+        "id": 73,
+        "title": "Product Free 18",
+        "slug": "product-free-18",
+        "price": 108,
+        "description": "This is Product Free 18",
+        "category": {
+            "id": 2,
+            "name": "Electronics",
+            "slug": "electronics",
+            "image": "https://i.imgur.com/ZANVnHE.jpeg",
+            "creationAt": "2025-05-01T05:54:29.000Z",
+            "updatedAt": "2025-05-01T05:54:29.000Z"
+        },
+        "images": [
+            "https://placehold.co/600x400"
+        ],
+        "creationAt": "2025-05-01T15:14:50.000Z",
+        "updatedAt": "2025-05-01T15:14:50.000Z"
+    },
+    {
+        "id": 77,
+        "title": "New Productdd",
+        "slug": "new-productdd",
+        "price": 10,
+        "description": "A ",
+        "category": {
+            "id": 1,
+            "name": "Clothess",
+            "slug": "clothess",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUqXD-SRcdd86DyDzg7mUZh1y9YuxkyJ9tCA&s",
+            "creationAt": "2025-05-01T05:54:29.000Z",
+            "updatedAt": "2025-05-01T12:34:52.000Z"
+        },
+        "images": [
+            "https://i.pinimg.com/736x/bf/1e/96/bf1e96ab228573b5f14cca020f781bad.jpg"
+        ],
+        "creationAt": "2025-05-01T17:15:16.000Z",
+        "updatedAt": "2025-05-01T17:15:16.000Z"
+    },
+    {
+        "id": 78,
+        "title": "New HER",
+        "slug": "new-her",
+        "price": 10,
+        "description": "A ",
+        "category": {
+            "id": 1,
+            "name": "Clothess",
+            "slug": "clothess",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUqXD-SRcdd86DyDzg7mUZh1y9YuxkyJ9tCA&s",
+            "creationAt": "2025-05-01T05:54:29.000Z",
+            "updatedAt": "2025-05-01T12:34:52.000Z"
+        },
+        "images": [
+            "https://i.pinimg.com/736x/bf/1e/96/bf1e96ab228573b5f14cca020f781bad.jpg"
+        ],
+        "creationAt": "2025-05-01T17:15:48.000Z",
+        "updatedAt": "2025-05-01T17:15:48.000Z"
+    }
+]

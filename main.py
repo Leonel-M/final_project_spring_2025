@@ -8,12 +8,13 @@ def get_data(path):
     """
     with open(path,'r', encoding='utf-8') as file:
         json_data = json.load(file)
+        # https://pandas.pydata.org/docs/reference/api/pandas.json_normalize.html
     return  pd.json_normalize(json_data)
 
 path_locations = 'data/locations.json'
 path_products = 'data/products.json'
 
-#https://pandas.pydata.org/docs/reference/api/pandas.json_normalize.html
+
 df_locations = get_data(path_locations)
 df_products = get_data(path_products)
 

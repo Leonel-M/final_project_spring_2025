@@ -14,9 +14,5 @@ def get_data(path):
 path_locations = 'data/locations.json'
 path_products = 'data/products.json'
 
-
 df_locations = get_data(path_locations)
 df_products = get_data(path_products)
-
-print(df_locations.head())
-print(df_products.head())

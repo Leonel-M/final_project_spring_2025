@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6349d031-b357-42c1-b74f-c35b77702273" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dash_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/dash_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/locations.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/products.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +36,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python.api.executor": "Debug",
+    "Python.api.executor": "Run",
     "Python.dash_app.executor": "Run",
     "Python.data.executor": "Run",
     "Python.main.executor": "Run",

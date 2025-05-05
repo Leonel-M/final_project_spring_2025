@@ -1,115 +1,5 @@
 [
     {
-        "id": 41,
-        "title": "Futuristic Chic High-Heel Boots",
-        "slug": "futuristic-chic-high-heel-boots",
-        "price": 36,
-        "description": "Elevate your style with our cutting-edge high-heel boots that blend bold design with avant-garde aesthetics. These boots feature a unique color-block heel, a sleek silhouette, and a versatile light grey finish that pairs easily with any cutting-edge outfit. Crafted for the fashion-forward individual, these boots are sure to make a statement.",
-        "category": {
-            "id": 4,
-            "name": "Shoes ",
-            "slug": "shoes",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6ns2it1GR8XbMwrxhNvakcJlv2RvmmAlJCQ&s",
-            "creationAt": "2025-05-01T05:54:29.000Z",
-            "updatedAt": "2025-05-01T08:46:34.000Z"
-        },
-        "images": [
-            "https://i.imgur.com/HqYqLnW.jpeg",
-            "https://i.imgur.com/RlDGnZw.jpeg",
-            "https://i.imgur.com/qa0O6fg.jpeg"
-        ],
-        "creationAt": "2025-05-01T05:54:29.000Z",
-        "updatedAt": "2025-05-01T05:54:29.000Z"
-    },
-    {
-        "id": 43,
-        "title": "Elegant Purple Leather Loafers",
-        "slug": "elegant-purple-leather-loafers",
-        "price": 17,
-        "description": "Step into sophistication with our Elegant Purple Leather Loafers, perfect for making a bold statement. Crafted from high-quality leather with a vibrant purple finish, these shoes feature a classic loafer silhouette that's been updated with a contemporary twist. The comfortable slip-on design and durable soles ensure both style and functionality for the modern man.",
-        "category": {
-            "id": 4,
-            "name": "Shoes ",
-            "slug": "shoes",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6ns2it1GR8XbMwrxhNvakcJlv2RvmmAlJCQ&s",
-            "creationAt": "2025-05-01T05:54:29.000Z",
-            "updatedAt": "2025-05-01T08:46:34.000Z"
-        },
-        "images": [
-            "https://i.imgur.com/Au8J9sX.jpeg",
-            "https://i.imgur.com/gdr8BW2.jpeg",
-            "https://i.imgur.com/KDCZxnJ.jpeg"
-        ],
-        "creationAt": "2025-05-01T05:54:29.000Z",
-        "updatedAt": "2025-05-01T05:54:29.000Z"
-    },
-    {
-        "id": 44,
-        "title": "Classic Blue Suede Casual Shoes",
-        "slug": "classic-blue-suede-casual-shoes",
-        "price": 39,
-        "description": "Step into comfort with our Classic Blue Suede Casual Shoes, perfect for everyday wear. These shoes feature a stylish blue suede upper, durable rubber soles for superior traction, and classic lace-up fronts for a snug fit. The sleek design pairs well with both jeans and chinos, making them a versatile addition to any wardrobe.",
-        "category": {
-            "id": 4,
-            "name": "Shoes ",
-            "slug": "shoes",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6ns2it1GR8XbMwrxhNvakcJlv2RvmmAlJCQ&s",
-            "creationAt": "2025-05-01T05:54:29.000Z",
-            "updatedAt": "2025-05-01T08:46:34.000Z"
-        },
-        "images": [
-            "https://i.imgur.com/sC0ztOB.jpeg",
-            "https://i.imgur.com/Jf9DL9R.jpeg",
-            "https://i.imgur.com/R1IN95T.jpeg"
-        ],
-        "creationAt": "2025-05-01T05:54:29.000Z",
-        "updatedAt": "2025-05-01T05:54:29.000Z"
-    },
-    {
-        "id": 45,
-        "title": "Sleek Futuristic Electric Bicycle",
-        "slug": "sleek-futuristic-electric-bicycle",
-        "price": 22,
-        "description": "This modern electric bicycle combines style and efficiency with its unique design and top-notch performance features. Equipped with a durable frame, enhanced battery life, and integrated tech capabilities, it's perfect for the eco-conscious commuter looking to navigate the city with ease.",
-        "category": {
-            "id": 5,
-            "name": "Others ",
-            "slug": "others",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpGybNvK2WoZax0xgrfAdkncVkpjI3kjhE3a0AAim6GH61HSy7eVvk2Qo&s=10",
-            "creationAt": "2025-05-01T05:54:29.000Z",
-            "updatedAt": "2025-05-01T08:48:53.000Z"
-        },
-        "images": [
-            "https://i.imgur.com/BG8J0Fj.jpg",
-            "https://i.imgur.com/ujHBpCX.jpg",
-            "https://i.imgur.com/WHeVL9H.jpg"
-        ],
-        "creationAt": "2025-05-01T05:54:29.000Z",
-        "updatedAt": "2025-05-01T05:54:29.000Z"
-    },
-    {
-        "id": 46,
-        "title": "Sleek All-Terrain Go-Kart",
-        "slug": "sleek-all-terrain-go-kart",
-        "price": 37,
-        "description": "Experience the thrill of outdoor adventures with our Sleek All-Terrain Go-Kart, featuring a durable frame, comfortable racing seat, and robust, large-tread tires perfect for handling a variety of terrains. Designed for fun-seekers of all ages, this go-kart is an ideal choice for backyard racing or exploring local trails.",
-        "category": {
-            "id": 5,
-            "name": "Others ",
-            "slug": "others",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpGybNvK2WoZax0xgrfAdkncVkpjI3kjhE3a0AAim6GH61HSy7eVvk2Qo&s=10",
-            "creationAt": "2025-05-01T05:54:29.000Z",
-            "updatedAt": "2025-05-01T08:48:53.000Z"
-        },
-        "images": [
-            "https://i.imgur.com/Ex5x3IU.jpg",
-            "https://i.imgur.com/z7wAQwe.jpg",
-            "https://i.imgur.com/kc0Dj9S.jpg"
-        ],
-        "creationAt": "2025-05-01T05:54:29.000Z",
-        "updatedAt": "2025-05-01T05:54:29.000Z"
-    },
-    {
         "id": 47,
         "title": "Radiant Citrus Eau de Parfum",
         "slug": "radiant-citrus-eau-de-parfum",
@@ -117,19 +7,63 @@
         "description": "Indulge in the essence of summer with this vibrant citrus-scented Eau de Parfum. Encased in a sleek glass bottle with a bold orange cap, this fragrance embodies freshness and elegance. Perfect for daily wear, it's an olfactory delight that leaves a lasting, zesty impression.",
         "category": {
             "id": 5,
-            "name": "Others ",
-            "slug": "others",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpGybNvK2WoZax0xgrfAdkncVkpjI3kjhE3a0AAim6GH61HSy7eVvk2Qo&s=10",
-            "creationAt": "2025-05-01T05:54:29.000Z",
-            "updatedAt": "2025-05-01T08:48:53.000Z"
+            "name": "Miscellaneous",
+            "slug": "miscellaneous",
+            "image": "https://i.imgur.com/BG8J0Fj.jpg",
+            "creationAt": "2025-05-05T09:17:38.000Z",
+            "updatedAt": "2025-05-05T09:17:38.000Z"
         },
         "images": [
             "https://i.imgur.com/xPDwUb3.jpg",
             "https://i.imgur.com/3rfp691.jpg",
             "https://i.imgur.com/kG05a29.jpg"
         ],
-        "creationAt": "2025-05-01T05:54:29.000Z",
-        "updatedAt": "2025-05-01T05:54:29.000Z"
+        "creationAt": "2025-05-05T09:17:38.000Z",
+        "updatedAt": "2025-05-05T09:17:38.000Z"
+    },
+    {
+        "id": 48,
+        "title": "Sleek Olive Green Hardshell Carry-On Luggage",
+        "slug": "sleek-olive-green-hardshell-carry-on-luggage",
+        "price": 48,
+        "description": "Travel in style with our durable hardshell carry-on, perfect for weekend getaways and business trips. This sleek olive green suitcase features smooth gliding wheels for easy airport navigation, a sturdy telescopic handle, and a secure zippered compartment to keep your belongings safe. Its compact size meets most airline overhead bin requirements, ensuring a hassle-free flying experience.",
+        "category": {
+            "id": 5,
+            "name": "Miscellaneous",
+            "slug": "miscellaneous",
+            "image": "https://i.imgur.com/BG8J0Fj.jpg",
+            "creationAt": "2025-05-05T09:17:38.000Z",
+            "updatedAt": "2025-05-05T09:17:38.000Z"
+        },
+        "images": [
+            "https://i.imgur.com/jVfoZnP.jpg",
+            "https://i.imgur.com/Tnl15XK.jpg",
+            "https://i.imgur.com/7OqTPO6.jpg"
+        ],
+        "creationAt": "2025-05-05T09:17:38.000Z",
+        "updatedAt": "2025-05-05T09:17:38.000Z"
+    },
+    {
+        "id": 49,
+        "title": "Chic Transparent Fashion Handbag",
+        "slug": "chic-transparent-fashion-handbag",
+        "price": 61,
+        "description": "Elevate your style with our Chic Transparent Fashion Handbag, perfect for showcasing your essentials with a clear, modern edge. This trendy accessory features durable acrylic construction, luxe gold-tone hardware, and an elegant chain strap. Its compact size ensures you can carry your day-to-day items with ease and sophistication.",
+        "category": {
+            "id": 5,
+            "name": "Miscellaneous",
+            "slug": "miscellaneous",
+            "image": "https://i.imgur.com/BG8J0Fj.jpg",
+            "creationAt": "2025-05-05T09:17:38.000Z",
+            "updatedAt": "2025-05-05T09:17:38.000Z"
+        },
+        "images": [
+            "https://i.imgur.com/Lqaqz59.jpg",
+            "https://i.imgur.com/uSqWK0m.jpg",
+            "https://i.imgur.com/atWACf1.jpg"
+        ],
+        "creationAt": "2025-05-05T09:17:38.000Z",
+        "updatedAt": "2025-05-05T09:17:38.000Z"
     },
     {
         "id": 50,
@@ -139,19 +73,19 @@
         "description": "Step up your style game with these fashionable black-framed, pink-tinted sunglasses. Perfect for making a statement while protecting your eyes from the glare. Their bold color and contemporary design make these shades a must-have accessory for any trendsetter looking to add a pop of color to their ensemble.",
         "category": {
             "id": 5,
-            "name": "Others ",
-            "slug": "others",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpGybNvK2WoZax0xgrfAdkncVkpjI3kjhE3a0AAim6GH61HSy7eVvk2Qo&s=10",
-            "creationAt": "2025-05-01T05:54:29.000Z",
-            "updatedAt": "2025-05-01T08:48:53.000Z"
+            "name": "Miscellaneous",
+            "slug": "miscellaneous",
+            "image": "https://i.imgur.com/BG8J0Fj.jpg",
+            "creationAt": "2025-05-05T09:17:38.000Z",
+            "updatedAt": "2025-05-05T09:17:38.000Z"
         },
         "images": [
             "https://i.imgur.com/0qQBkxX.jpg",
             "https://i.imgur.com/I5g1DoE.jpg",
             "https://i.imgur.com/myfFQBW.jpg"
         ],
-        "creationAt": "2025-05-01T05:54:29.000Z",
-        "updatedAt": "2025-05-01T05:54:29.000Z"
+        "creationAt": "2025-05-05T09:17:38.000Z",
+        "updatedAt": "2025-05-05T09:17:38.000Z"
     },
     {
         "id": 51,
@@ -161,198 +95,438 @@
         "description": "Enhance your drinkware collection with our sophisticated set of glass tumblers, perfect for serving your favorite beverages. This versatile set includes both clear and subtly tinted glasses, lending a modern touch to any table setting. Crafted with quality materials, these durable tumblers are designed to withstand daily use while maintaining their elegant appeal.",
         "category": {
             "id": 5,
-            "name": "Others ",
-            "slug": "others",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpGybNvK2WoZax0xgrfAdkncVkpjI3kjhE3a0AAim6GH61HSy7eVvk2Qo&s=10",
-            "creationAt": "2025-05-01T05:54:29.000Z",
-            "updatedAt": "2025-05-01T08:48:53.000Z"
+            "name": "Miscellaneous",
+            "slug": "miscellaneous",
+            "image": "https://i.imgur.com/BG8J0Fj.jpg",
+            "creationAt": "2025-05-05T09:17:38.000Z",
+            "updatedAt": "2025-05-05T09:17:38.000Z"
         },
         "images": [
             "https://i.imgur.com/TF0pXdL.jpg",
             "https://i.imgur.com/BLDByXP.jpg",
             "https://i.imgur.com/b7trwCv.jpg"
         ],
-        "creationAt": "2025-05-01T05:54:29.000Z",
-        "updatedAt": "2025-05-01T05:54:29.000Z"
+        "creationAt": "2025-05-05T09:17:38.000Z",
+        "updatedAt": "2025-05-05T09:17:38.000Z"
     },
     {
-        "id": 66,
-        "title": "Mobile Phones",
-        "slug": "mobile-phones",
+        "id": 60,
+        "title": "Test",
+        "slug": "test",
+        "price": 400,
+        "description": "gk;mm",
+        "category": {
+            "id": 1,
+            "name": "clothes",
+            "slug": "clothes",
+            "image": "https://i.imgur.com/QkIa5tT.jpeg",
+            "creationAt": "2025-05-05T09:17:38.000Z",
+            "updatedAt": "2025-05-05T17:00:01.000Z"
+        },
+        "images": [
+            "https://www.bing.com/images/search?view=detailV2&ccid=gWJq3kzL&id=88E61BF843C213C190DE3D57FA2C4CE215D02C78&thid=OIP.gWJq3kzLumBCnZ--TTU3EAHaDt&mediaurl=https%3a%2f%2fopengraph.githubassets.com%2f9b3103057330cc8ea05bf018f5307001ed9470d91b0513a7f4e541c538f82cea%2fcake-build%2fprocesses%2fissues%2f15&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.81626ade4ccbba60429d9fbe4d353710%3frik%3deCzQFeJMLPpXPQ%26pid%3dImgRaw%26r%3d0&exph=600&expw=1200&q=cake+api&simid=608018558143455486&FORM=IRPRST&ck=8FDA1529048B71FD501C175ED8DA1A0A&selectedIndex=4&itb=0"
+        ],
+        "creationAt": "2025-05-05T12:48:04.000Z",
+        "updatedAt": "2025-05-05T12:48:04.000Z"
+    },
+    {
+        "id": 61,
+        "title": "Test Now",
+        "slug": "test-now",
+        "price": 700,
+        "description": "gjkhk",
+        "category": {
+            "id": 1,
+            "name": "clothes",
+            "slug": "clothes",
+            "image": "https://i.imgur.com/QkIa5tT.jpeg",
+            "creationAt": "2025-05-05T09:17:38.000Z",
+            "updatedAt": "2025-05-05T17:00:01.000Z"
+        },
+        "images": [
+            "https://www.bing.com/images/search?view=detailV2&ccid=gWJq3kzL&id=88E61BF843C213C190DE3D57FA2C4CE215D02C78&thid=OIP.gWJq3kzLumBCnZ--TTU3EAHaDt&mediaurl=https%3a%2f%2fopengraph.githubassets.com%2f9b3103057330cc8ea05bf018f5307001ed9470d91b0513a7f4e541c538f82cea%2fcake-build%2fprocesses%2fissues%2f15&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.81626ade4ccbba60429d9fbe4d353710%3frik%3deCzQFeJMLPpXPQ%26pid%3dImgRaw%26r%3d0&exph=600&expw=1200&q=cake+api&simid=608018558143455486&FORM=IRPRST&ck=8FDA1529048B71FD501C175ED8DA1A0A&selectedIndex=4&itb=0"
+        ],
+        "creationAt": "2025-05-05T12:58:18.000Z",
+        "updatedAt": "2025-05-05T12:58:18.000Z"
+    },
+    {
+        "id": 62,
+        "title": "New Product",
+        "slug": "new-product",
         "price": 10,
         "description": "A description",
         "category": {
             "id": 1,
-            "name": "Clothess",
-            "slug": "clothess",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUqXD-SRcdd86DyDzg7mUZh1y9YuxkyJ9tCA&s",
-            "creationAt": "2025-05-01T05:54:29.000Z",
-            "updatedAt": "2025-05-01T12:34:52.000Z"
+            "name": "clothes",
+            "slug": "clothes",
+            "image": "https://i.imgur.com/QkIa5tT.jpeg",
+            "creationAt": "2025-05-05T09:17:38.000Z",
+            "updatedAt": "2025-05-05T17:00:01.000Z"
+        },
+        "images": [
+            "https://placehold.co/600x400"
+        ],
+        "creationAt": "2025-05-05T13:32:04.000Z",
+        "updatedAt": "2025-05-05T13:32:04.000Z"
+    },
+    {
+        "id": 64,
+        "title": "New Karate Products",
+        "slug": "new-karate-products",
+        "price": 999,
+        "description": "Created via Karate POST",
+        "category": {
+            "id": 1,
+            "name": "clothes",
+            "slug": "clothes",
+            "image": "https://i.imgur.com/QkIa5tT.jpeg",
+            "creationAt": "2025-05-05T09:17:38.000Z",
+            "updatedAt": "2025-05-05T17:00:01.000Z"
         },
         "images": [
             "https://placeimg.com/640/480/any"
         ],
-        "creationAt": "2025-05-01T11:04:39.000Z",
-        "updatedAt": "2025-05-01T11:04:39.000Z"
-    },
-    {
-        "id": 67,
-        "title": "new product",
-        "slug": "new-product",
-        "price": 12,
-        "description": "A product",
-        "category": {
-            "id": 1,
-            "name": "Clothess",
-            "slug": "clothess",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUqXD-SRcdd86DyDzg7mUZh1y9YuxkyJ9tCA&s",
-            "creationAt": "2025-05-01T05:54:29.000Z",
-            "updatedAt": "2025-05-01T12:34:52.000Z"
-        },
-        "images": [
-            "https://placehold.co/600x400"
-        ],
-        "creationAt": "2025-05-01T11:51:54.000Z",
-        "updatedAt": "2025-05-01T11:51:54.000Z"
-    },
-    {
-        "id": 68,
-        "title": "Product Free 1",
-        "slug": "product-free-1",
-        "price": 100,
-        "description": "This is Product Free 1",
-        "category": {
-            "id": 2,
-            "name": "Electronics",
-            "slug": "electronics",
-            "image": "https://i.imgur.com/ZANVnHE.jpeg",
-            "creationAt": "2025-05-01T05:54:29.000Z",
-            "updatedAt": "2025-05-01T05:54:29.000Z"
-        },
-        "images": [
-            "https://placehold.co/600x400"
-        ],
-        "creationAt": "2025-05-01T15:09:26.000Z",
-        "updatedAt": "2025-05-01T15:09:26.000Z"
-    },
-    {
-        "id": 70,
-        "title": "Product Free 11",
-        "slug": "product-free-11",
-        "price": 100,
-        "description": "This is Product Free 11",
-        "category": {
-            "id": 2,
-            "name": "Electronics",
-            "slug": "electronics",
-            "image": "https://i.imgur.com/ZANVnHE.jpeg",
-            "creationAt": "2025-05-01T05:54:29.000Z",
-            "updatedAt": "2025-05-01T05:54:29.000Z"
-        },
-        "images": [
-            "https://placehold.co/600x400"
-        ],
-        "creationAt": "2025-05-01T15:10:49.000Z",
-        "updatedAt": "2025-05-01T15:10:49.000Z"
-    },
-    {
-        "id": 71,
-        "title": "Product Free 12",
-        "slug": "product-free-12",
-        "price": 100,
-        "description": "This is Product Free 11",
-        "category": {
-            "id": 2,
-            "name": "Electronics",
-            "slug": "electronics",
-            "image": "https://i.imgur.com/ZANVnHE.jpeg",
-            "creationAt": "2025-05-01T05:54:29.000Z",
-            "updatedAt": "2025-05-01T05:54:29.000Z"
-        },
-        "images": [
-            "https://placehold.co/600x400"
-        ],
-        "creationAt": "2025-05-01T15:12:48.000Z",
-        "updatedAt": "2025-05-01T15:12:48.000Z"
-    },
-    {
-        "id": 72,
-        "title": "Product Free 15",
-        "slug": "product-free-15",
-        "price": 100,
-        "description": "This is Product Free 15",
-        "category": {
-            "id": 2,
-            "name": "Electronics",
-            "slug": "electronics",
-            "image": "https://i.imgur.com/ZANVnHE.jpeg",
-            "creationAt": "2025-05-01T05:54:29.000Z",
-            "updatedAt": "2025-05-01T05:54:29.000Z"
-        },
-        "images": [
-            "https://placehold.co/600x400"
-        ],
-        "creationAt": "2025-05-01T15:13:45.000Z",
-        "updatedAt": "2025-05-01T15:13:45.000Z"
+        "creationAt": "2025-05-05T14:00:26.000Z",
+        "updatedAt": "2025-05-05T14:00:26.000Z"
     },
     {
         "id": 73,
-        "title": "Product Free 18",
-        "slug": "product-free-18",
-        "price": 108,
-        "description": "This is Product Free 18",
+        "title": "New Karate Product - Debomita168",
+        "slug": "new-karate-product-debomita168",
+        "price": 150,
+        "description": "Created via Karate POST",
         "category": {
-            "id": 2,
-            "name": "Electronics",
-            "slug": "electronics",
-            "image": "https://i.imgur.com/ZANVnHE.jpeg",
-            "creationAt": "2025-05-01T05:54:29.000Z",
-            "updatedAt": "2025-05-01T05:54:29.000Z"
+            "id": 1,
+            "name": "clothes",
+            "slug": "clothes",
+            "image": "https://i.imgur.com/QkIa5tT.jpeg",
+            "creationAt": "2025-05-05T09:17:38.000Z",
+            "updatedAt": "2025-05-05T17:00:01.000Z"
+        },
+        "images": [
+            "https://placeimg.com/640/480/any"
+        ],
+        "creationAt": "2025-05-05T14:55:49.000Z",
+        "updatedAt": "2025-05-05T14:55:49.000Z"
+    },
+    {
+        "id": 74,
+        "title": "New Karate Product - Debomita337",
+        "slug": "new-karate-product-debomita337",
+        "price": 150,
+        "description": "Created via Karate POST",
+        "category": {
+            "id": 1,
+            "name": "clothes",
+            "slug": "clothes",
+            "image": "https://i.imgur.com/QkIa5tT.jpeg",
+            "creationAt": "2025-05-05T09:17:38.000Z",
+            "updatedAt": "2025-05-05T17:00:01.000Z"
+        },
+        "images": [
+            "https://placeimg.com/640/480/any"
+        ],
+        "creationAt": "2025-05-05T14:57:07.000Z",
+        "updatedAt": "2025-05-05T14:57:07.000Z"
+    },
+    {
+        "id": 75,
+        "title": "New Karate Product - Debomita483",
+        "slug": "new-karate-product-debomita483",
+        "price": 150,
+        "description": "Created via Karate POST",
+        "category": {
+            "id": 1,
+            "name": "clothes",
+            "slug": "clothes",
+            "image": "https://i.imgur.com/QkIa5tT.jpeg",
+            "creationAt": "2025-05-05T09:17:38.000Z",
+            "updatedAt": "2025-05-05T17:00:01.000Z"
+        },
+        "images": [
+            "https://placeimg.com/640/480/any"
+        ],
+        "creationAt": "2025-05-05T15:19:23.000Z",
+        "updatedAt": "2025-05-05T15:19:23.000Z"
+    },
+    {
+        "id": 77,
+        "title": "New Karate Product - Debomita297",
+        "slug": "new-karate-product-debomita297",
+        "price": 150,
+        "description": "Created via Karate POST",
+        "category": {
+            "id": 1,
+            "name": "clothes",
+            "slug": "clothes",
+            "image": "https://i.imgur.com/QkIa5tT.jpeg",
+            "creationAt": "2025-05-05T09:17:38.000Z",
+            "updatedAt": "2025-05-05T17:00:01.000Z"
+        },
+        "images": [
+            "https://placeimg.com/640/480/any"
+        ],
+        "creationAt": "2025-05-05T15:21:31.000Z",
+        "updatedAt": "2025-05-05T15:21:31.000Z"
+    },
+    {
+        "id": 82,
+        "title": "New Karate Product - Debomita273",
+        "slug": "new-karate-product-debomita273",
+        "price": 150,
+        "description": "Created via Karate POST",
+        "category": {
+            "id": 1,
+            "name": "clothes",
+            "slug": "clothes",
+            "image": "https://i.imgur.com/QkIa5tT.jpeg",
+            "creationAt": "2025-05-05T09:17:38.000Z",
+            "updatedAt": "2025-05-05T17:00:01.000Z"
+        },
+        "images": [
+            "https://placeimg.com/640/480/any"
+        ],
+        "creationAt": "2025-05-05T15:35:24.000Z",
+        "updatedAt": "2025-05-05T15:35:24.000Z"
+    },
+    {
+        "id": 83,
+        "title": "hjvhv",
+        "slug": "hjvhv",
+        "price": 644,
+        "description": "kjerferguerfouegf ihfoi\"'hefhe eihjfoiehfo",
+        "category": {
+            "id": 1,
+            "name": "clothes",
+            "slug": "clothes",
+            "image": "https://i.imgur.com/QkIa5tT.jpeg",
+            "creationAt": "2025-05-05T09:17:38.000Z",
+            "updatedAt": "2025-05-05T17:00:01.000Z"
         },
         "images": [
             "https://placehold.co/600x400"
         ],
-        "creationAt": "2025-05-01T15:14:50.000Z",
-        "updatedAt": "2025-05-01T15:14:50.000Z"
+        "creationAt": "2025-05-05T16:24:25.000Z",
+        "updatedAt": "2025-05-05T16:24:25.000Z"
     },
     {
-        "id": 77,
-        "title": "New Productdd",
-        "slug": "new-productdd",
-        "price": 10,
-        "description": "A ",
+        "id": 84,
+        "title": "erg",
+        "slug": "erg",
+        "price": 65464,
+        "description": "uijgidesfohern e ferhfioher efyef eyh",
         "category": {
             "id": 1,
-            "name": "Clothess",
-            "slug": "clothess",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUqXD-SRcdd86DyDzg7mUZh1y9YuxkyJ9tCA&s",
-            "creationAt": "2025-05-01T05:54:29.000Z",
-            "updatedAt": "2025-05-01T12:34:52.000Z"
+            "name": "clothes",
+            "slug": "clothes",
+            "image": "https://i.imgur.com/QkIa5tT.jpeg",
+            "creationAt": "2025-05-05T09:17:38.000Z",
+            "updatedAt": "2025-05-05T17:00:01.000Z"
         },
         "images": [
-            "https://i.pinimg.com/736x/bf/1e/96/bf1e96ab228573b5f14cca020f781bad.jpg"
+            "https://placehold.co/600x400"
         ],
-        "creationAt": "2025-05-01T17:15:16.000Z",
-        "updatedAt": "2025-05-01T17:15:16.000Z"
+        "creationAt": "2025-05-05T16:38:41.000Z",
+        "updatedAt": "2025-05-05T16:38:41.000Z"
     },
     {
-        "id": 78,
-        "title": "New HER",
-        "slug": "new-her",
-        "price": 10,
-        "description": "A ",
+        "id": 85,
+        "title": "yufyfu",
+        "slug": "yufyfu",
+        "price": 65465,
+        "description": "lyuigb _y gi_m ihh",
         "category": {
             "id": 1,
-            "name": "Clothess",
-            "slug": "clothess",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUqXD-SRcdd86DyDzg7mUZh1y9YuxkyJ9tCA&s",
-            "creationAt": "2025-05-01T05:54:29.000Z",
-            "updatedAt": "2025-05-01T12:34:52.000Z"
+            "name": "clothes",
+            "slug": "clothes",
+            "image": "https://i.imgur.com/QkIa5tT.jpeg",
+            "creationAt": "2025-05-05T09:17:38.000Z",
+            "updatedAt": "2025-05-05T17:00:01.000Z"
         },
         "images": [
-            "https://i.pinimg.com/736x/bf/1e/96/bf1e96ab228573b5f14cca020f781bad.jpg"
+            "https://placehold.co/600x400"
         ],
-        "creationAt": "2025-05-01T17:15:48.000Z",
-        "updatedAt": "2025-05-01T17:15:48.000Z"
+        "creationAt": "2025-05-05T16:52:02.000Z",
+        "updatedAt": "2025-05-05T16:52:02.000Z"
+    },
+    {
+        "id": 86,
+        "title": "bgtftfr",
+        "slug": "bgtftfr",
+        "price": 210,
+        "description": "gtrgrthgr  jyhtythty tryht",
+        "category": {
+            "id": 4,
+            "name": "Shoes",
+            "slug": "shoes",
+            "image": "https://i.imgur.com/qNOjJje.jpeg",
+            "creationAt": "2025-05-05T09:17:38.000Z",
+            "updatedAt": "2025-05-05T09:17:38.000Z"
+        },
+        "images": [
+            "https://placehold.co/600x400"
+        ],
+        "creationAt": "2025-05-05T16:56:06.000Z",
+        "updatedAt": "2025-05-05T16:56:06.000Z"
+    },
+    {
+        "id": 87,
+        "title": "Laptop",
+        "slug": "laptop",
+        "price": 10,
+        "description": "What a nice product",
+        "category": {
+            "id": 2,
+            "name": "Electronics01",
+            "slug": "electronics01",
+            "image": "https://i.imgur.com/ZANVnHE.jpeg",
+            "creationAt": "2025-05-05T09:17:38.000Z",
+            "updatedAt": "2025-05-05T15:47:23.000Z"
+        },
+        "images": [
+            "https://i.imgur.com/QkIa5tT.jpeg"
+        ],
+        "creationAt": "2025-05-05T16:59:40.000Z",
+        "updatedAt": "2025-05-05T16:59:40.000Z"
+    },
+    {
+        "id": 88,
+        "title": "vdfvds",
+        "slug": "vdfvds",
+        "price": 11321,
+        "description": "sdcqs zevezfcz zevzdz",
+        "category": {
+            "id": 4,
+            "name": "Shoes",
+            "slug": "shoes",
+            "image": "https://i.imgur.com/qNOjJje.jpeg",
+            "creationAt": "2025-05-05T09:17:38.000Z",
+            "updatedAt": "2025-05-05T09:17:38.000Z"
+        },
+        "images": [
+            "https://placehold.co/600x400"
+        ],
+        "creationAt": "2025-05-05T17:20:06.000Z",
+        "updatedAt": "2025-05-05T17:20:06.000Z"
+    },
+    {
+        "id": 89,
+        "title": "New Karate Product - Debomita419",
+        "slug": "new-karate-product-debomita419",
+        "price": 150,
+        "description": "Created via Karate POST",
+        "category": {
+            "id": 1,
+            "name": "clothes",
+            "slug": "clothes",
+            "image": "https://i.imgur.com/QkIa5tT.jpeg",
+            "creationAt": "2025-05-05T09:17:38.000Z",
+            "updatedAt": "2025-05-05T17:00:01.000Z"
+        },
+        "images": [
+            "https://placeimg.com/640/480/any"
+        ],
+        "creationAt": "2025-05-05T17:36:19.000Z",
+        "updatedAt": "2025-05-05T17:36:19.000Z"
+    },
+    {
+        "id": 92,
+        "title": "chaqueta samurai",
+        "slug": "chaqueta-samurai",
+        "price": 2077,
+        "description": "chaqueta de cuero",
+        "category": {
+            "id": 1,
+            "name": "clothes",
+            "slug": "clothes",
+            "image": "https://i.imgur.com/QkIa5tT.jpeg",
+            "creationAt": "2025-05-05T09:17:38.000Z",
+            "updatedAt": "2025-05-05T17:00:01.000Z"
+        },
+        "images": [
+            "https://sm.ign.com/ign_es/screenshot/default/cyberpunk-2077-samurai-jacket_uute.jpg"
+        ],
+        "creationAt": "2025-05-05T20:16:09.000Z",
+        "updatedAt": "2025-05-05T20:16:09.000Z"
+    },
+    {
+        "id": 93,
+        "title": "Camiseta Oversize",
+        "slug": "camiseta-oversize",
+        "price": 7000,
+        "description": "Camiseta de los Alcolirykoz",
+        "category": {
+            "id": 1,
+            "name": "clothes",
+            "slug": "clothes",
+            "image": "https://i.imgur.com/QkIa5tT.jpeg",
+            "creationAt": "2025-05-05T09:17:38.000Z",
+            "updatedAt": "2025-05-05T17:00:01.000Z"
+        },
+        "images": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX5UgJdXicmZJQQ3WISxEImU6gK0FFol-Awg&s"
+        ],
+        "creationAt": "2025-05-05T20:16:35.000Z",
+        "updatedAt": "2025-05-05T20:16:35.000Z"
+    },
+    {
+        "id": 97,
+        "title": "Camiseta",
+        "slug": "camiseta",
+        "price": 50000,
+        "description": "Camiseta rosa",
+        "category": {
+            "id": 1,
+            "name": "clothes",
+            "slug": "clothes",
+            "image": "https://i.imgur.com/QkIa5tT.jpeg",
+            "creationAt": "2025-05-05T09:17:38.000Z",
+            "updatedAt": "2025-05-05T17:00:01.000Z"
+        },
+        "images": [
+            "https://sportdepotmex.com.mx/wp-content/uploads/2014/09/2000-rosa.31.jpg"
+        ],
+        "creationAt": "2025-05-05T20:18:21.000Z",
+        "updatedAt": "2025-05-05T20:18:21.000Z"
+    },
+    {
+        "id": 103,
+        "title": "Ttitle",
+        "slug": "ttitle",
+        "price": 1,
+        "description": "hiws",
+        "category": {
+            "id": 31,
+            "name": "fhxfh",
+            "slug": "fhxfh",
+            "image": "https://placeimg.com/640/480/any",
+            "creationAt": "2025-05-05T19:54:14.000Z",
+            "updatedAt": "2025-05-05T19:54:14.000Z"
+        },
+        "images": [
+            "https://images.unsplash.com/photo-1575936123452-b67c3203c357?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D"
+        ],
+        "creationAt": "2025-05-05T20:40:35.000Z",
+        "updatedAt": "2025-05-05T20:40:35.000Z"
+    },
+    {
+        "id": 104,
+        "title": "Laptop Pro",
+        "slug": "laptop-pro",
+        "price": 10,
+        "description": "What a nice product",
+        "category": {
+            "id": 2,
+            "name": "Electronics01",
+            "slug": "electronics01",
+            "image": "https://i.imgur.com/ZANVnHE.jpeg",
+            "creationAt": "2025-05-05T09:17:38.000Z",
+            "updatedAt": "2025-05-05T15:47:23.000Z"
+        },
+        "images": [
+            "https://i.imgur.com/QkIa5tT.jpeg"
+        ],
+        "creationAt": "2025-05-05T21:25:22.000Z",
+        "updatedAt": "2025-05-05T21:25:22.000Z"
     }
 ]

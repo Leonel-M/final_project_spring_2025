@@ -25,7 +25,22 @@ app = Dash()
 
 # Requires Dash 2.17.0 or later
 app.layout = html.Div([
-    dcc.Graph(figure=locations_map)
+    html.Div([html.H1('LOCATIONS'),dcc.Graph(figure=locations_map)],
+             id='id_locations',
+             className= 'grid',
+             style={'backgroundColor':'blue', 'width':'50%'}
+             ),
+    html.Div([html.H1('PRODUCTS')],
+             id='id_products',
+             className='grid',
+             style={'backgroundColor': 'red', 'width': '50%'}
+             ),
+    html.Div([html.H1('USERS')],
+             id='id_users',
+             className='grid',
+             style={'backgroundColor': 'yellow', 'width': '100%'}
+             ),
+
 ])
 
 

@@ -21,6 +21,8 @@ def get_data(path):
 
 path_locations = 'data/locations.json'
 path_products = 'data/products.json'
+path_users = 'data/users.json'
 
 df_locations = get_data(path_locations)
 df_products = get_data(path_products)
+df_users = get_data(path_users)

@@ -32,16 +32,20 @@ app = FastAPI()
 async def get_data():
     api_products = 'https://api.escuelajs.co/api/v1/products'
     api_locations = 'https://api.escuelajs.co/api/v1/locations'
+    api_users = 'https://api.escuelajs.co/api/v1/users'
 
     async with httpx.AsyncClient() as client:  # Async requests https://www.python-httpx.org/async/
 
         products = await fetch_data(client,api_products)
         locations = await fetch_data(client,api_locations)
+        users = await fetch_data(client, api_users)
 
         save_json(products, 'data/products.json')
         save_json(locations, 'data/locations.json')
+        save_json(users, 'data/users.json')
     return {
         'message': 'Data saved successfully',
         'products_count': len(products),
-        'locations_count': len(locations)
+        'locations_count': len(locations),
+        'users_count': len(users)
     }

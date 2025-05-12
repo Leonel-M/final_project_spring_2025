@@ -5,7 +5,7 @@ A Minimal Dash App from https://dash.plotly.com/minimal-app
 from dash import Dash, html, dcc, callback, Output, Input
 import plotly.express as px
 import pandas as pd
-from data import df_locations, df_products
+from data import df_locations, df_products, df_users
 
 """
 scatter_map configuration https://docs.sisense.com/main/SisenseLinux/scatter-map.htm

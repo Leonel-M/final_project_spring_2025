@@ -51,8 +51,6 @@ def histogram(df, x_column, title=None,x_label=None, y_label='Count'):
 
     return fig
 
-
-
 app = Dash()
 
 # Requires Dash 2.17.0 or later
@@ -66,14 +64,19 @@ app.layout = html.Div([
              style={'backgroundColor':'blue', 'width':'50%'}
              ),
     html.Div([html.H1('PRODUCTS'),
-            html.H3(f'The virtual store has {products.total()} products and {len(products.categories())} categories'),
+            html.P(f'The virtual store has {products.total()} products and {len(products.categories())} categories'),
             dcc.Graph(figure=histogram(
                 products.df,
                 'category.name',
                 title='Product per Category',
                 x_label='Category',
                 y_label='Number of Products'
-            ))
+            )
+            ),
+            html.H3(f'Most expensive product:'),
+            html.P(f'Product: {products.costlier()[0]} cost: {products.costlier()[1]}'),
+            html.H3(f'Cheaper product:'),
+            html.P(f'Product: {products.cheaper()[0]} cost: {products.cheaper()[1]}'),
               ],
              id='id_products',
              className='grid',

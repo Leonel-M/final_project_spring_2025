@@ -21,6 +21,37 @@ def locations_map(df):
                     zoom=10,
                     size_max=40,
                     map_style='outdoors')
+def histogram(df, x_column, title=None,x_label=None, y_label='Count'):
+    """
+    Generates a Plotly histogram for a given column in the DataFrame.
+
+    Parameters:
+    - df (pd.DataFrame): The DataFrame containing the data.
+    - x_column (str): Name of the column to be used on the x-axis.
+    - title (str, optional): Title of the histogram. Defaults to None.
+    - x_label (str, optional): Label for the x-axis. Defaults to the column name.
+    - y_label (str, optional): Label for the y-axis. Defaults to "Count".
+
+    Returns:
+    - fig (plotly.graph_objs._figure.Figure): A Plotly figure object representing the histogram.
+    """
+    #https://plotly.com/python/histograms/
+    fig = px.histogram(
+        df,
+        x=x_column,
+        title=title,
+        labels={x_column: x_label or x_column}
+    )
+
+    fig.update_layout(
+        xaxis_title=x_label or x_column,
+        yaxis_title=y_label,
+        bargap=0.2
+    )
+
+    return fig
+
+
 
 app = Dash()
 
@@ -34,7 +65,16 @@ app.layout = html.Div([
              className= 'grid',
              style={'backgroundColor':'blue', 'width':'50%'}
              ),
-    html.Div([html.H1('PRODUCTS')],
+    html.Div([html.H1('PRODUCTS'),
+            html.H3(f'The virtual store has {products.total()} products and {len(products.categories())} categories'),
+            dcc.Graph(figure=histogram(
+                products.df,
+                'category.name',
+                title='Product per Category',
+                x_label='Category',
+                y_label='Number of Products'
+            ))
+              ],
              id='id_products',
              className='grid',
              style={'backgroundColor': 'red', 'width': '50%'}

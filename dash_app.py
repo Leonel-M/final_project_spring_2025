@@ -50,6 +50,26 @@ def histogram(df, x_column, title=None,x_label=None, y_label='Count'):
     )
 
     return fig
+def timeline(df, date_column, title=None, x_label='Date', y_label=''):
+    """
+    :param df: DataFrame containing the data
+    :param date_column: Name of the datetime column
+    :param title:  Chart title
+    :param x_label: Label for the x-axis
+    :param y_label: Label for the y-axis
+    :return: A Plotly line chart
+    """
+    daily_counts = df[date_column].value_counts().sort_index()
+
+    fig = px.line(
+        x=daily_counts.index,
+        y=daily_counts.values,
+        title=title,
+        labels={"x": x_label, "y": y_label}
+    )
+
+    fig.update_layout(xaxis_title=x_label, yaxis_title=y_label)
+    return fig
 
 app = Dash()
 
@@ -68,15 +88,18 @@ app.layout = html.Div([
             dcc.Graph(figure=histogram(
                 products.df,
                 'category.name',
-                title='Product per Category',
-                x_label='Category',
-                y_label='Number of Products'
+                'Product per Category',
+                'Category',
+                'Number of Products'
             )
             ),
             html.H3(f'Most expensive product:'),
             html.P(f'Product: {products.costlier()[0]} cost: {products.costlier()[1]}'),
             html.H3(f'Cheaper product:'),
             html.P(f'Product: {products.cheaper()[0]} cost: {products.cheaper()[1]}'),
+            dcc.Graph(figure=timeline(products.df,
+                                      'creationAt',
+                                      'Products Registration'))
               ],
              id='id_products',
              className='grid',

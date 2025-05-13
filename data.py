@@ -2,9 +2,6 @@ import pandas as pd
 import json
 import os
 
-from unicodedata import category
-
-
 class DataFrame:
     def __init__(self, in_path):
         self.path = in_path
@@ -54,6 +51,8 @@ class Product(DataFrame):
         super().__init__(in_path)
         self.df['creationAt'] = self.date_format('creationAt')
         self.df['updatedAt'] = self.date_format('updatedAt')
+        self.expensive_product = self.costlier()
+        self.cheap_product = self.cheaper()
 
     def categories(self):
         """
@@ -101,6 +100,8 @@ class User(DataFrame):
         self.df['updatedAt'] = self.date_format('updatedAt')
         #https://stackoverflow.com/questions/13411544/delete-a-column-from-a-pandas-dataframe
         self.df.drop(columns=['password'], inplace=True, errors='ignore')
+        self.admins = self.type_user().get('admin', 0)
+        self.customers = self.type_user().get('customer', 0)
 
     def type_user(self):
         """
@@ -108,7 +109,6 @@ class User(DataFrame):
         :return: {'rol': number, 'rol': number} Dict
         """
         return self.df['role'].value_counts().to_dict()
-
 
 path_locations = 'data/locations.json'
 path_products = 'data/products.json'

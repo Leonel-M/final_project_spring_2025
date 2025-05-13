@@ -10,7 +10,8 @@ from data import locations, products, users
 """
 scatter_map configuration https://docs.sisense.com/main/SisenseLinux/scatter-map.htm
 """
-locations_map = px.scatter_map(locations.df,
+def locations_map(df):
+    return px.scatter_map(df,
                     lat='latitude',
                     lon='longitude',
                     hover_name='name',
@@ -25,7 +26,7 @@ app = Dash()
 
 # Requires Dash 2.17.0 or later
 app.layout = html.Div([
-    html.Div([html.H1('LOCATIONS'),dcc.Graph(figure=locations_map)],
+    html.Div([html.H1('LOCATIONS'),dcc.Graph(figure=locations_map(locations.df))],
              id='id_locations',
              className= 'grid',
              style={'backgroundColor':'blue', 'width':'50%'}

@@ -13,6 +13,16 @@ class DataFrame:
         """
         return len(self.df['id'].count())
 
+    def date_format(self, column):
+        """
+        The format of the columns 'creationAt' and 'updateAt' are in ISO 8601 format.
+        YYYYY-MM-DDThh:mm:ss.fff.
+        it is necessary to transform it to dates that handle pandas with to_datetime.
+        :return: Date readable in pandas
+        """
+        #https://stackoverflow.com/questions/18618288/how-do-i-convert-dates-into-iso-8601-datetime-format-in-a-pandas-dataframe:
+        return  pd.to_datetime(self.df[column], utc=True)
+
     def get_data(self):
         """
         :return: Pandas DataFrames
@@ -39,6 +49,9 @@ class DataFrame:
 class Product(DataFrame):
     def __init__(self,in_path):
         super().__init__(in_path)
+        self.df['creationAt'] = self.date_format('creationAt')
+        self.df['updatedAt'] = self.date_format('updatedAt')
+
 
     def average(self):
         """
@@ -80,15 +93,7 @@ class User(DataFrame):
         #https://stackoverflow.com/questions/13411544/delete-a-column-from-a-pandas-dataframe
         self.df.drop(columns=['password'], inplace=True, errors='ignore')
 
-    def date_format(self, column):
-        """
-        The format of the columns 'creationAt' and 'updateAt' are in ISO 8601 format.
-        YYYYY-MM-DDThh:mm:ss.fff.
-        it is necessary to transform it to dates that handle pandas with to_datetime.
-        :return: Date readable in pandas
-        """
-        #https://stackoverflow.com/questions/18618288/how-do-i-convert-dates-into-iso-8601-datetime-format-in-a-pandas-dataframe:
-        return  pd.to_datetime(self.df[column], utc=True)
+
 
 path_locations = 'data/locations.json'
 path_products = 'data/products.json'

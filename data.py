@@ -70,9 +70,15 @@ class Product(DataFrame):
 
 class User(DataFrame):
     def __init__(self,in_path):
+        """
+        The user information has sensitive data,
+        the password is removed from the dataframe.
+        """
         super().__init__(in_path)
         self.df['creationAt'] = self.date_format('creationAt')
         self.df['updatedAt'] = self.date_format('updatedAt')
+        #https://stackoverflow.com/questions/13411544/delete-a-column-from-a-pandas-dataframe
+        self.df.drop(columns=['password'], inplace=True, errors='ignore')
 
     def date_format(self, column):
         """

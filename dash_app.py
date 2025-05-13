@@ -75,6 +75,7 @@ app = Dash()
 
 # Requires Dash 2.17.0 or later
 app.layout = html.Div([
+    # --- Div LOCATIONS
     html.Div([html.H1('LOCATIONS'),
               html.H3(f'The company has {locations.total()} stores.'),
               dcc.Graph(figure=locations_map(locations.df))
@@ -83,7 +84,23 @@ app.layout = html.Div([
              className= 'grid',
              style={'backgroundColor':'blue', 'width':'49%','display': 'inline-block','verticalAlign': 'top'}
              ),
-    html.Div([html.H1('PRODUCTS'),
+    # --- Div USERS
+    html.Div([html.H1('USERS'),
+              html.P(f'the online store has {users.total()} registered users.'),
+              html.P(
+                  f'{users.type_user().get('admin', 0)} administrators and {users.type_user().get('customer', 0)} buyers.'),
+              dcc.Graph(figure=timeline(users.df[users.df['role'] == 'customer'],
+                                        # Only show users with customer role inside df
+                                        'creationAt',
+                                        'Registration of buyers in the store'))
+              ],
+             id='id_users',
+             className='grid',
+             style={'backgroundColor': 'yellow', 'width':'49%','display': 'inline-block','verticalAlign': 'top'}
+             ),
+    # --- Div PRODUCTS
+    html.Div([
+        html.Div([html.H1('PRODUCTS'),
             html.P(f'The virtual store has {products.total()} products and {len(products.categories())} categories'),
             dcc.Graph(figure=histogram(
                 products.df,
@@ -92,30 +109,24 @@ app.layout = html.Div([
                 'Category',
                 'Number of Products'
             )
-            ),
-            html.H3(f'Most expensive product:'),
-            html.P(f'Product: {products.costlier()[0]} cost: {products.costlier()[1]}'),
-            html.H3(f'Cheaper product:'),
-            html.P(f'Product: {products.cheaper()[0]} cost: {products.cheaper()[1]}'),
+            ),],style={'width': '49%', 'display': 'inline-block', 'verticalAlign': 'top'}),
+        html.Div([
+            html.Div([
+                html.H3(f'Most expensive product:'),
+                html.P(f'Product: {products.costlier()[0]} cost: {products.costlier()[1]}'),],style={'width': '49%', 'display': 'inline-block', 'verticalAlign': 'top'}),
+            html.Div([
+                html.H3(f'Cheaper product:'),
+                html.P(f'Product: {products.cheaper()[0]} cost: {products.cheaper()[1]}'),],style={'width': '49%', 'display': 'inline-block', 'verticalAlign': 'top'}),
+
             dcc.Graph(figure=timeline(products.df,
                                       'creationAt',
-                                      'Products Registration'))
+                                      'Products Registration'))],style={'width': '49%', 'display': 'inline-block', 'verticalAlign': 'top'}),
               ],
              id='id_products',
              className='grid',
-             style={'backgroundColor': 'red', 'width':'49%','display': 'inline-block'}
+             style={'backgroundColor': 'red', 'width':'100%','display': 'inline-block'}
              ),
-    html.Div([html.H1('USERS'),
-              html.P(f'the online store has {users.total()} registered users.'),
-              html.P(f'{users.type_user().get('admin',0)} administrators and {users.type_user().get('customer',0)} buyers.'),
-              dcc.Graph(figure=timeline(users.df[users.df['role'] == 'customer'],  # Only show users with customer role inside df
-                                        'creationAt',
-                                        'Registration of buyers in the store'))
-              ],
-             id='id_users',
-             className='grid',
-             style={'backgroundColor': 'yellow', 'width': '100%'}
-             ),
+
 
 ])
 

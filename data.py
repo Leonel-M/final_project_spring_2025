@@ -2,6 +2,9 @@ import pandas as pd
 import json
 import os
 
+from unicodedata import category
+
+
 class DataFrame:
     def __init__(self, in_path):
         self.path = in_path
@@ -11,7 +14,7 @@ class DataFrame:
         """
         :return:  Total amount of data per column 'id'
         """
-        return len(self.df['id'].count())
+        return self.df['id'].count()
 
     def date_format(self, column):
         """
@@ -52,6 +55,12 @@ class Product(DataFrame):
         self.df['creationAt'] = self.date_format('creationAt')
         self.df['updatedAt'] = self.date_format('updatedAt')
 
+    def categories(self):
+        """
+        Extract category names from the flattened 'category.name' column.
+        :return: Series with category names
+        """
+        return self.df['category.name'].dropna().unique().tolist()
 
     def average(self):
         """

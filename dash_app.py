@@ -26,7 +26,10 @@ app = Dash()
 
 # Requires Dash 2.17.0 or later
 app.layout = html.Div([
-    html.Div([html.H1('LOCATIONS'),dcc.Graph(figure=locations_map(locations.df))],
+    html.Div([html.H1('LOCATIONS'),
+              html.H3(f'The company has {locations.total()} stores.'),
+              dcc.Graph(figure=locations_map(locations.df))
+              ],
              id='id_locations',
              className= 'grid',
              style={'backgroundColor':'blue', 'width':'50%'}

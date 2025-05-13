@@ -105,7 +105,13 @@ app.layout = html.Div([
              className='grid',
              style={'backgroundColor': 'red', 'width':'49%','display': 'inline-block'}
              ),
-    html.Div([html.H1('USERS')],
+    html.Div([html.H1('USERS'),
+              html.P(f'the online store has {users.total()} registered users.'),
+              html.P(f'{users.type_user().get('admin',0)} administrators and {users.type_user().get('customer',0)} buyers.'),
+              dcc.Graph(figure=timeline(users.df[users.df['role'] == 'customer'],  # Only show users with customer role inside df
+                                        'creationAt',
+                                        'Registration of buyers in the store'))
+              ],
              id='id_users',
              className='grid',
              style={'backgroundColor': 'yellow', 'width': '100%'}

@@ -102,6 +102,14 @@ class User(DataFrame):
         #https://stackoverflow.com/questions/13411544/delete-a-column-from-a-pandas-dataframe
         self.df.drop(columns=['password'], inplace=True, errors='ignore')
 
+    def type_user(self):
+        """
+        Returns the count of each user type, based on the result of type_user().
+        :return: {'rol': number, 'rol': number} Dict
+        """
+        return self.df['role'].value_counts().to_dict()
+
+
 path_locations = 'data/locations.json'
 path_products = 'data/products.json'
 path_users = 'data/users.json'

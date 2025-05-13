@@ -81,7 +81,7 @@ app.layout = html.Div([
               ],
              id='id_locations',
              className= 'grid',
-             style={'backgroundColor':'blue', 'width':'50%'}
+             style={'backgroundColor':'blue', 'width':'49%','display': 'inline-block','verticalAlign': 'top'}
              ),
     html.Div([html.H1('PRODUCTS'),
             html.P(f'The virtual store has {products.total()} products and {len(products.categories())} categories'),
@@ -103,7 +103,7 @@ app.layout = html.Div([
               ],
              id='id_products',
              className='grid',
-             style={'backgroundColor': 'red', 'width': '50%'}
+             style={'backgroundColor': 'red', 'width':'49%','display': 'inline-block'}
              ),
     html.Div([html.H1('USERS')],
              id='id_users',

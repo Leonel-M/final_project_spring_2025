@@ -70,6 +70,14 @@ def timeline(df, date_column, title=None, x_label='Date', y_label=''):
     fig.update_layout(xaxis_title=x_label, yaxis_title=y_label)
     return fig
 
+def header():
+    return html.Header([ html.Img(src='https://fakeapi.platzi.com/_astro/icon.BNMhJCSt.png', alt='platzi_icon', id='icon'),
+                  html.H1('Platzi Fake Store APP'),
+
+    ])
+
+    return
+
 def locations_layout():
     """
     :return: Dash html.Div component containing the locations layout

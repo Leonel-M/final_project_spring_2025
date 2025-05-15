@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+}
+
+h2, h3, h4, h5, h6{
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+#app{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+#id_header{
+    display: flex;
+    align-items: center;
+    margin: 1em auto;
+    width: 100%;
+}
+
+#id_header img{
+    margin: .5em;
+    width: 5em;
+}
+
+#id_header h1{
+    margin: .5em;
+}
+
+#id_locations{
+    width: 50%;
+}
+
+#id_users{
+    width: 50%;
+}
+
+#id_products{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#id_products #category,#product{
+    width: 50%;
+}

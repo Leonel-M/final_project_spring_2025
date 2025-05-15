@@ -1,10 +1,16 @@
 """
 A Minimal Dash App from https://dash.plotly.com/minimal-app
+
+Dash supports adding custom CSS or JavaScript in your apps.
+Create a folder named assets in the root of your app directory and include
+your CSS and JavaScript files in that folder. Dash automatically serves all the files
+that are included in this folder. By default, the URL to request the assets is /assets,
+but you can customize this with the assets_url_path argument to dash.Dash.
+https://dash.plotly.com/external-resources
 """
 
 from dash import Dash, html, dcc, callback, Output, Input
-from components import locations_map, histogram, timeline, locations_layout, users_layout, products_layout, header
-from data import locations, products, users
+from components import locations_layout, users_layout, products_layout, header
 
 """
 scatter_map configuration https://docs.sisense.com/main/SisenseLinux/scatter-map.htm
@@ -18,7 +24,7 @@ app.layout = html.Div([
     locations_layout(),   # --- Div LOCATIONS
     users_layout(),  # --- Div USERS
     products_layout(),  # --- Div PRODUCTS
-])
+],id='app')
 
 
 if __name__ == '__main__':

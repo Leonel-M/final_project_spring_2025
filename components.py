@@ -1,6 +1,6 @@
 import plotly.express as px
 from dash import Dash, html,dcc
-import pandas as pd
+
 from data import locations, products, users
 
 def locations_map(df):
@@ -71,42 +71,39 @@ def timeline(df, date_column, title=None, x_label='Date', y_label=''):
     return fig
 
 def header():
+    """
+    :return:  Dash html.Header component containing the HEADER layout
+    """
     return html.Header([ html.Img(src='https://fakeapi.platzi.com/_astro/icon.BNMhJCSt.png', alt='platzi_icon', id='icon'),
-                  html.H1('Platzi Fake Store APP'),
-
-    ])
-
-    return
+                  html.H1('Platzi Fake Store App Dashboard'),
+    ], id='id_header')
 
 def locations_layout():
     """
     :return: Dash html.Div component containing the locations layout
     """
-    return    html.Div([html.H1('LOCATIONS'),
-              html.H3(f'The company has {locations.total()} stores.'),
+    return    html.Div([html.H2('LOCATIONS'),
+              html.P(f'The company has {locations.total()} stores.'),
               dcc.Graph(figure=locations_map(locations.df))
               ],
              id='id_locations',
              className= 'grid',
-             style={'backgroundColor':'blue', 'width':'49%','display': 'inline-block','verticalAlign': 'top'}
              )
 
 def users_layout():
     """
     :return: Dash html.Div component containing the users layout
     """
-    return html.Div([html.H1('USERS'),
+    return html.Div([html.H2('USERS'),
 
-              html.P(f'the online store has {users.total()} registered users.'),
-              html.P(f'{users.admins} administrators and {users.customers} buyers.'),
+              html.P(f'the online store has {users.total()} registered users. {users.admins} administrators and {users.customers} customers.'),
               dcc.Graph(figure=timeline(users.df[users.df['role'] == 'customer'],
                                         # Only show users with customer role inside df
                                         'creationAt',
-                                        'Registration of buyers in the store'))
+                                        'Registration of customers in the store'))
               ],
              id='id_users',
-             className='grid',
-             style={'backgroundColor': 'yellow', 'width':'49%','display': 'inline-block','verticalAlign': 'top'}
+             className='grid'
              )
 
 def products_layout():
@@ -114,7 +111,7 @@ def products_layout():
     :return: Dash html.Div component containing the products layout
     """
     return html.Div([
-        html.Div([html.H1('PRODUCTS'),
+        html.Div([html.H2('PRODUCTS'),
             html.P(f'The virtual store has {products.total()} products and {len(products.categories())} categories'),
             dcc.Graph(figure=histogram(
                 products.df,
@@ -123,7 +120,7 @@ def products_layout():
                 'Category',
                 'Number of Products'
             )
-            ),],style={'width': '49%', 'display': 'inline-block', 'verticalAlign': 'top'}),
+            ),], id='category'),
         html.Div([
             html.Div([
                 html.H3(f'Most expensive product:'),
@@ -134,9 +131,8 @@ def products_layout():
 
             dcc.Graph(figure=timeline(products.df,
                                       'creationAt',
-                                      'Products Registration'))],style={'width': '49%', 'display': 'inline-block', 'verticalAlign': 'top'}),
+                                      'Products Registration'))], id='product'),
               ],
              id='id_products',
-             className='grid',
-             style={'backgroundColor': 'red', 'width':'100%','display': 'inline-block'}
+             className='grid'
              )

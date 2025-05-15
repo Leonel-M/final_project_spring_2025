@@ -9,7 +9,7 @@ but you can customize this with the assets_url_path argument to dash.Dash.
 https://dash.plotly.com/external-resources
 """
 
-from dash import Dash, html, dcc, callback, Output, Input
+from dash import Dash, html
 from components import locations_layout, users_layout, products_layout, header
 
 """

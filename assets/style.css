@@ -1,13 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
+*{
+        margin: 0;
+}
+
 body{
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 14px;
+    background-color: #121f3d;
+
+}
+
+.grid{
+    background: #24385b;
+    border-radius: 1em;
+    margin: .5em;
+    border: 1px solid #354560;
+}
+
+.grid .dash-graph,p,h2,h3{
+    padding: .5em 1em;
 }
 
 h2, h3, h4, h5, h6{
     font-size: 1.3em;
     font-weight: 700;
+    color: #eff3f8;
+}
+p{
+    color: #8da2c0;
 }
 
 #app{
@@ -31,14 +52,11 @@ h2, h3, h4, h5, h6{
 
 #id_header h1{
     margin: .5em;
+    color: #98ca3f;
 }
 
-#id_locations{
-    width: 50%;
-}
-
-#id_users{
-    width: 50%;
+#id_locations, #id_users{
+    width: 48%;
 }
 
 #id_products{
@@ -49,5 +67,15 @@ h2, h3, h4, h5, h6{
 }
 
 #id_products #category,#product{
-    width: 50%;
+    width: 49%;
+}
+
+
+
+
+@media (max-width: 1030px) {
+    #id_locations, #id_users, #id_products>#category,#product {
+        width: 100%;
+    }
+
 }

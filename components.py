@@ -1,5 +1,5 @@
 import plotly.express as px
-from dash import Dash, html,dcc
+from dash import html,dcc
 
 from data import locations, products, users
 
@@ -74,7 +74,7 @@ def header():
     """
     :return:  Dash html.Header component containing the HEADER layout
     """
-    return html.Header([ html.Img(src='https://fakeapi.platzi.com/_astro/icon.BNMhJCSt.png', alt='platzi_icon', id='icon'),
+    return html.Header([ html.Img(src='assets/icon.png', alt='platzi_icon', id='icon'),
                   html.H1('Platzi Fake Store App Dashboard'),
     ], id='id_header')
 

@@ -49,7 +49,6 @@ final_project_spring_2025/
 
 To install them, run:
 
-```bash
 pip install -r requirements.txt
 
 ---
